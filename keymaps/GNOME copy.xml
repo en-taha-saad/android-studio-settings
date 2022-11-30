@@ -9,13 +9,20 @@
   <action id="Adtui.ZoomOutAction">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="Arrangement.Rule.Group.Condition.Move.Down">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="Arrangement.Rule.Group.Condition.Move.Up">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down">
     <keyboard-shortcut first-keystroke="shift alt down" />
-    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Up">
     <keyboard-shortcut first-keystroke="shift alt up" />
-    <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -81,6 +88,12 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="ReformatCode">
