@@ -49,7 +49,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
-  <action id="Run" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -57,7 +59,5 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
-  <action id="runShellFileAction">
-    <keyboard-shortcut first-keystroke="alt 3" />
-  </action>
+  <action id="runShellFileAction" />
 </keymap>
