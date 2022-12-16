@@ -6,9 +6,7 @@
   <action id="Adtui.ZoomOutAction">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="alt 3" />
-  </action>
+  <action id="ChooseRunConfiguration" />
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
@@ -58,5 +56,8 @@
   </action>
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
 </keymap>
