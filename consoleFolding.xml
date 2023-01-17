@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="/usr/lib/jvm/jdk-17/bin/java -javaagent:/snap/intellij-idea-community/" />
+      </list>
+    </option>
+  </component>
+</application>
