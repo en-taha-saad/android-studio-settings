@@ -3,9 +3,11 @@
     <option name="isWizardShown" value="true" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="tabFontSizeEnabled" value="true" />
+    <option name="indicatorStyle" value="None" />
     <option name="accentColor" value="84ffff" />
     <option name="selectedTheme" value="DEEPOCEAN" />
-    <option name="userId" value="-73f382eb:185bf3f708b:-8000" />
+    <option name="userId" value="-14606a4d:185bb84db6a:-8000" />
     <option name="version" value="8.4.1" />
+    <option name="tabHighlightPosition" value="Bottom" />
   </component>
 </application>
