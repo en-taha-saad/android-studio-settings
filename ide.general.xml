@@ -19,7 +19,6 @@
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="SendFeedbackPanel" value="false" />
         <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
-        <entry key="git" value="false" />
       </map>
     </option>
   </component>
