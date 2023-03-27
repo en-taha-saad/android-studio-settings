@@ -2,7 +2,9 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
-        <option value="/usr/lib/jvm/jdk-17/bin/java -javaagent:/snap/intellij-idea-community/" />
+        <option value="&quot;C:\Program Files\Android\Android Studio\jre\bin\java.exe&quot; &quot;-javaagent:C:\Program Files\Android\Android Studio\lib\idea_rt.jar" />
+        <option value="&quot;C:\Program Files\Android\Android Studio\jre\bin\java.exe&quot; &quot;-javaagent:C:\Program Files\Android\Android Studio\lib\idea_rt.jar=" />
+        <option value="Process finished with exit code 0" />
       </list>
     </option>
   </component>

@@ -1,42 +1,73 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="ActivateFindToolWindow" />
-  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
-  <action id="Arrangement.Rule.Group.Condition.Move.Down" />
-  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
-  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
-  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Adtui.ZoomInAction">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Adtui.ZoomOutAction">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="ChooseRunConfiguration" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
     <mouse-shortcut keystroke="control button143" />
   </action>
-  <action id="EditorToggleUseSoftWraps">
-    <keyboard-shortcut first-keystroke="alt z" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="MethodDown" />
-  <action id="MethodUp" />
-  <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
-    <keyboard-shortcut first-keystroke="alt down" />
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
-  <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
-    <keyboard-shortcut first-keystroke="alt up" />
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
-  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
-  <action id="ShowSearchHistory" />
-  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="runShellFileAction" />
 </keymap>
